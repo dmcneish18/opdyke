@@ -1,0 +1,22 @@
+Package: opdyke
+Title: Opdyke Percentiles for Approximate Local Fit in Structural Equation Models
+Version: 1.0.0
+Authors@R: 
+    person("Dan", "McNeish", , "dmcneish@asu.edu", role = c("aut", "cre"))
+Description: Clarifies local fit assessment by placing a predicted correlation within and observed correlation'
+  the Opdyke distribution, a distribution from finance that encodes distortions and restrictions when working
+  on a correlation scale. 
+License: AGPL-3
+Language: en-US
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+URL: https://github.com/dmcneish18/opdyke
+BugReports: https://github.com/dmcneish18/opdyke/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    dplyr (>= 1.1.0),
+    lavaan (>= 0.6-7),
+    matrixcalc (>= 1.0-6),
+    pracma (>= 2.4.4),
+    gsl (>= 2.1-8)
