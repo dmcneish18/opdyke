@@ -118,7 +118,7 @@ opdyke.percentiles<-function(fit=NULL,lower=0.40,upper=0.60, precision="less"){
   W<-matrix(NA,nrow=nrow(S),ncol=ncol(S))
   W[lower.tri(W,diag=F)]<-round(e[order(e$column,e$row),]$cdf_exact,2)
   W1<-W
-  is.na(W) <-  W >= .4 & W <= .6
+  is.na(W) <-  W >= lower & W <= upper
   colnames(W)<-colnames(S1$cov)
   rownames(W)<-colnames(S1$cov)
 
