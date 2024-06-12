@@ -6,7 +6,7 @@ Authors@R:
 Description: Clarifies local fit assessment by placing a predicted correlation within and observed correlation'
   the Opdyke distribution, a distribution from finance that encodes distortions and restrictions when working
   on a correlation scale. 
-License: AGPL-3
+License: AGPL-3 + file LICENSE
 Language: en-US
 Encoding: UTF-8
 Depends: R (>= 4.0.0)
